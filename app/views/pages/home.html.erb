@@ -1,2 +1,13 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner d-flex justify-content-center align-items-center h-100" style= "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fGJ1c2luZXNzJTIwbWVldGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60'); height: 100vh;">
+  <div class="text-center container">
+    <div class="row">
+      <div class="col-md-5 text-left">
+        <h1>Investments, for Africa.</h1><br>
+        <p class='opacity-80'>Get back the control over your subscriptions. <br>
+        Your e-assistant will remind you about the reoccuring payments.</p>
+
+        <%= link_to "Manage Your Subscriptions", subscriptions_path, class: "btn btn-ghost mt-4" %>
+      </div>
+    </div>
+  </div>
+</div>
