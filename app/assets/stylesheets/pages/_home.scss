@@ -54,3 +54,13 @@ h3 {
     text-align: start;
     color: #FFFFFF;
 }
+
+.download {
+    display: flex;
+    // justify-content: space-between;
+    align-items: flex-start;
+    img {
+      width: 85px;
+      height: 30px;
+    }
+}
