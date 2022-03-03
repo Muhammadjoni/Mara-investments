@@ -1,5 +1,5 @@
 <%# banner %>
-<div class="banner d-flex justify-content-center align-items-center h-90" style= "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)), url('https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/male-model.jpg?raw=true'); height: 90vh;">
+<div class="banner d-flex justify-content-center align-items-center h-90" style= "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)), url('https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/male-model.jpg?raw=true'); height: 85vh;">
   <div class="brand">
     <img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/vector.png?raw=true" id="vector"    />
     <img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/m-vector.png?raw=true" style="margin-left: 1em; width: 25px; height: 25px;"/>
@@ -11,19 +11,30 @@
   <div class="text-center container">
     <div class="row" style="margin-top: 150px;">
       <div class="head-text col-md-6 text-left">
-        <h1>Investing, <br>
-        for Africa</h1><br>
+        <h1> <%= link_to "Investing,", rates_path%> </h1>
+        <h1>for Africa</h1><br>
         <h3>Secure, multi-currency <br>
         investments.</h3>
 
         <div class="download">
           <img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/appstore.png?raw=true" />
-          <img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/googleplay.png?raw=true" style="margin-left: 2em;" />
+          <img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/googleplay.png?raw=true" style="margin-left: 1em;" />
         </div>
 
-
-        <%= link_to "Rates", rates_path, class: "btn btn-ghost mt-4" %>
       </div>
     </div>
   </div>
 </div>
+
+<%# partners %>
+
+<div class="row partners">
+  <div class="partners-links">
+    <a href="#"><img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/ftx.png?raw=true" /></a>
+    <a href="#"><img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/coinbase.png?raw=true" /></a>
+    <a href="#"><img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/haskey.png?raw=true" /></a>
+    <a href="#"><img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/tq.png?raw=true" /></a>
+    <a href="#"><img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/fundamental-labs.png?raw=truev" /></a>
+    <a href="#"><img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/woodstock.png?raw=truev" /></a>
+    <a href="#"><img src="https://github.com/Muhammadjoni/mara-investments/blob/master/app/assets/images/distributed-global.png?raw=truev" /></a>
+  </div>

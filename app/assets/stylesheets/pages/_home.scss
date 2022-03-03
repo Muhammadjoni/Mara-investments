@@ -31,6 +31,7 @@ strong { font-weight: 600; }
 
 .head-text {
   padding-inline: 90px;
+  line-height: 1em;
 }
 
 h1 {
@@ -43,6 +44,10 @@ h1 {
     align-items: flex-end;
     text-align: start;
     color: #FFFFFF;
+    a {
+      text-decoration: none;
+      color: white;
+    }
 }
 
 h3 {
@@ -59,8 +64,20 @@ h3 {
     display: flex;
     // justify-content: space-between;
     align-items: flex-start;
+    margin-top: 1.5em;
     img {
-      width: 85px;
-      height: 30px;
+      width: 107px;
+      height: 40px;
     }
+}
+
+.partners {
+  height: 12vh;
+  padding: 0 10em;
+}
+
+.partners-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
