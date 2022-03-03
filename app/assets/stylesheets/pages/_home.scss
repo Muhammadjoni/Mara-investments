@@ -34,7 +34,7 @@ strong { font-weight: 600; }
   line-height: 1em;
 }
 
-h1 {
+.head-text h1 {
     font-family: Arial;
     font-style: normal;
     font-weight: bold;
@@ -50,7 +50,7 @@ h1 {
     }
 }
 
-h3 {
+.head-text h3 {
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -67,7 +67,7 @@ h3 {
     margin-top: 1.5em;
     img {
       width: 107px;
-      height: 40px;
+      height: 45px;
     }
 }
 

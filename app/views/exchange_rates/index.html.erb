@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="header d-flex my-3 p-3">
+    Exchange Rates
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+        <% @exchange_rates.each do |rate| %>
+              <h3> <%= rate.symbol %> </h3>
+
+                  <h5>  <%= rate.m  %> </h5>
+                  <h5>  <%= rate.last %> </h5>
+                  <h5>  <%= rate.buy %> </h5>
+                  <h5>  <%= rate.sell %> </h5>
+        <% end %>
+    </div>
+  </div>
+</div>

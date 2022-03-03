@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+5.times do
+  p ExchangeRate.create(
+    m: Faker::Number.decimal(l_digits: 2, r_digits: 3),
+    last: Faker::Number.decimal(l_digits: 3, r_digits: 3),
+    buy: Faker::Number.decimal(l_digits: 3, r_digits: 3),
+    sell: Faker::Number.decimal(l_digits: 3, r_digits: 3),
+    symbol: Faker::Currency.symbol
+  )
+end
