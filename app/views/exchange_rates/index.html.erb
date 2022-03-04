@@ -5,14 +5,12 @@
 
   <div class="row">
     <div class="col-12">
-        <% @exchange_rates.each do |rate| %>
-              <h3> <%= rate.symbol %> </h3>
 
-                  <h5>  <%= rate.m  %> </h5>
-                  <h5>  <%= rate.last %> </h5>
-                  <h5>  <%= rate.buy %> </h5>
-                  <h5>  <%= rate.sell %> </h5>
-        <% end %>
+      <% @exchange_rates.each do |key,value| %>
+      <h5>  The key is: <%= key %> </h5>
+      <h5>  The value is: <%= value %> </h5> <br />
+      <% end %>
+
     </div>
   </div>
 </div>
